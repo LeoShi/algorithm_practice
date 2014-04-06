@@ -42,6 +42,7 @@ class IntervalStore
   def format_result(rest)
     @store = []
     rest.each_slice(2) { |pair_values| @store << pair_values }
+    @store
   end
 
   def filter_store(flatten_store, low_index, upp_index)
