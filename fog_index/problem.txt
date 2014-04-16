@@ -1,0 +1,23 @@
+- Provide a ZIP with complete source and all necessities
+- Provide instructions to launch and execute
+- Provide design notes or commentary on trade-off considered 
+- Focus particularly on what design patterns that you have used and how you used it.
+ 
+Fog index calculator, using your favorite programming language
+ 
+Design and write an application that can parse a text file and produce a fog index score, and other statistics for the document. A fog index is a readability score for a document. Using this"fog"  index, we can judge what reading material is good for different ages of students. For the purposes of this exercise we will use a simplified fog index defined as follows:
+ 
+Fog index = 0.4 * (words / sentence) + 100 (Complex Words / Words)
+ 
+Complex Words are words with more 5 or more letters and 2 or more vowels
+ 
+The applications should report:
+ 
+- The fog index
+- The total number of words and sentences in the document
+- The average number of words per sentence
+- The fog index per sentence
+ 
+Other questions:
+1) do you like some Robotics related assignments?
+2) if let you choose an open source to start with, building a content management framework for hiring process, including user and admin management (account setup/login), resume processing/parsing, interview scheduling and online testing, where do you start? something better than openCATS?
